@@ -4,7 +4,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :email
       t.string :type
       t.string :referral_code
-      t.integer :count
+      t.integer :count, default: 0
 
       t.timestamps null: false
     end

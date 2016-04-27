@@ -35,6 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'rspec-rails'
+  gem 'capybara'
   gem 'byebug'
 end
 
@@ -51,3 +52,6 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sparkpost'
 gem 'ahoy_matey'
 gem 'figaro'
+gem 'kaminari'
+gem 'pg'
+gem 'unicorn-rails'
